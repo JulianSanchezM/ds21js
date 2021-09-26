@@ -10,9 +10,8 @@
 // -> n integer
 // <- the n first elements
 
-numprim = prompt("Ingresa el numero de numeros primos a generar");
 
-var eratosthenes = function(n) {
+var np = function(n) {
     var array = [], upperLimit = Math.sqrt(n), output = [];
 
     for (var i = 0; i < n; i++) {
@@ -35,4 +34,4 @@ var eratosthenes = function(n) {
 
     return output;
 }
-eratosthenes(numprim);
+np(100)

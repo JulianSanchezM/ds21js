@@ -11,7 +11,6 @@
 // -> n integer
 // <- one random number in [1-n]
 
- n =prompt("Ingresa el valor maximo para generar los numeros aleatorios");
 num=[];
 const generaraleatorio = (min,n)=>{
 
@@ -24,4 +23,5 @@ const generaraleatorio = (min,n)=>{
     num.push(generaraleatorio(1,n))
     
     }
+generaraleatorio(1,100)
     console.log(num);
