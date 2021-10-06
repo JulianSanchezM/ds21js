@@ -37,8 +37,8 @@ function iniciaralg(inicializacion){
 
     let fin = new Date();
     
-    let dif = fin-inicializacion;
+     let dif = fin-inicializacion;
 }
 console.log(obj);
 
-console.log("Tiempo promedio: "+ (dif/7) + " ms");
+console.log("Tiempo promedio: "+ (dif)/7 + " ms");
