@@ -11,7 +11,7 @@
  */
 
 
-/* para instaciar la clase stack */  let queue = new Queue();
+/* para instaciar la clase queue */  let queue = new Queue();
 
 
  class Queue {
